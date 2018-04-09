@@ -16,12 +16,11 @@ function logShout(string) {
 }
 
 function logWhisper(string) {
-  var whisper = string;
-  if(whisper.toLowerCase() === string) {
+  if(string.toLowerCase() === string) {
     console.log(string)
   } else {
-    whisper = string.toLowerCase()
-    console.log(whisper)
+    string = string.toLowerCase()
+    console.log(string)
   }
 }
 
