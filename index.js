@@ -18,10 +18,10 @@ function logShout(string) {
 
 function logWhisper(string) {
   var whisper = string;
-  if(whisper.toUpperCase() === string) {
+  if(whisper.toLowerCase() === string) {
     console.log(string)
   } else {
-    whisper = string.toUpperCase()
-    console.log(shout)
+    whisper = string.toLowerCase()
+    console.log(whisper)
   }
 }
